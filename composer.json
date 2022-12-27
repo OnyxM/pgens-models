@@ -1,0 +1,21 @@
+{
+  "name": "onyxm/pgens-models",
+  "type": "library",
+  "description": "Your package description goes here",
+  "homepage": "http://localhost:8080",
+  "authors": [
+    {
+      "name": "Onyx Moffo",
+      "email": "onesimemoffo@gmail.com",
+      "role": "Owner"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "PGens\\SharedModels\\": "src"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
